@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: python-flask-app-container
-        image: rookesh975/flask_app:latest  # Correct image name here
+        image: rookesh975/flask_app:v1 # Correct image name here
         ports:
         - containerPort: 8080
