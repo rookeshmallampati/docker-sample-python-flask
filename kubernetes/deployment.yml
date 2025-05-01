@@ -13,8 +13,7 @@ spec:
         app: python-flask-app
     spec:
       containers:
-        - name: python-flask-app
-          image: ckr123/flask-web-app:latest
-          imagePullPolicy: Always
-          ports:
-            - containerPort: 8002
+      - name: python-flask-app
+        image: rookesh975/flask_app:latest  # Correct image name here
+        ports:
+        - containerPort: 8002
