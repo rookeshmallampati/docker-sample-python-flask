@@ -15,5 +15,6 @@ spec:
       containers:
       - name: python-flask-app-container
         image: rookesh975/flask_app:v1 # Correct image name here
+        imagePullPolicy: Always 
         ports:
         - containerPort: 8080
