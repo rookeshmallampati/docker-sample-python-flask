@@ -7,6 +7,6 @@ spec:
   selector:
     app: python-flask-app
   ports:
-    - targetPort: 8080
+    - targetPort: 8002
       port: 8002
       nodePort: 30080
