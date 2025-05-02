@@ -11,7 +11,7 @@ COPY app.py .
 RUN pip install flask
 
 # Expose port 80 for web traffic
-EXPOSE 8080
+EXPOSE 8002
 
 # Define the command to run when the container starts
 CMD ["python", "app.py"]
